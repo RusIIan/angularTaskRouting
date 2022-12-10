@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row ms-4">
+    <div class="button-container-1 me-2">
+      <span class="mas">Recipe Book</span>
+      <button id='work' routerLink="/" type="button" name="Hover"><a>Book</a></button>
+    </div>
+    <div class="button-container-1 me-2">
+      <span class="mas">Recipes</span>
+      <button id='work' routerLink="/recipes" type="button" name="Hover"><a>Recipes</a></button>
+    </div>
+    <div class="button-container-1 me-2">
+      <span class="mas">Shopping List</span>
+      <button id='work'  type="button" routerLink="/addShoplist" name="Hover"><a>Shopping List</a></button>
+    </div>
+    <div>
+      <router-outlet></router-outlet><!--это вставляет сюда место других команентов-->
+    </div>
+  </div>
+</div>
